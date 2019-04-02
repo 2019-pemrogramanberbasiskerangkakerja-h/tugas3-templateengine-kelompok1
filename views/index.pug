@@ -249,71 +249,87 @@ style.
   header#home.header
 #cupcakes.menu
   h1.yuhu
-   
+    img(src='img/cupcake.jpg' style='width:auto')
   ul
     li
- 
+      .foto
+        img(src='img/carrot.jpg' alt='Carrot' style='width:100%')
         h3 CARROT WALNUT 
         p
           | The Carrot Walnut is a spiced carrot cake with chunky walnuts throughout, topped with a thick swirl of rich cream cheese frosting.
     li
- 
+      .foto
+        img(src='img/whiskey.jpg' alt='Whiskey' style='width:100%')
         h3 WHISKEY MAPLE BACON
         p
           | The Whiskey Maple Bacon cupcake is available March only! Vanilla butter cake, hand-frosted with Whiskey Maple Buttercream. With or without bacon crumbles.
     li
-      
+      .foto
+        img(src='img/grasshoper.jpg' alt='' style='width:100%')
         h3  THE GRASSHOPPER 
         p
           | The Grasshopper cupcake is available in March only! Rich chocolate cake topped with peppermint buttercream frosting (featuring Seely peppermint oil) and dunked in house-made chocolate. Also available in Gluten Free.&mldr;
     li
-    
+      .foto
+        img(src='img/pot.jpg' alt='POT' style='width:100%')
         h3 POT O&apos; GOLD 
         p
           | The Pot o&rsquo; Gold cupcake is our rich chocolate cupcake infused with Jive Espresso Stout from Two Beers Brewery, filled with whiskey buttercream, and crowned with a whipped Bailey&rsquo;s Irish Cream frosting.
     li
-     
+      .foto
+        img(src='img/gluten.jpg' alt='gluten-free-vanilla' style='width:100%')
         h3 GLUTEN-FREE VANILLA
         p
           | Vanilla cake made with Gluten-Free flour from Bob&rsquo;s Red Mill, is classically swirled with buttercream frosting and rainbow nonpareils.
     li
-        
+      .foto
+        img(src='img/glutenchoco.jpg' alt='Steak' style='width:100%')
         h3 GLUTEN-FREE CHOCOLATE
         p
           | Chocolate cake made with Gluten-Free flour from Bob&rsquo;s Red Mill, is classically swirled with buttercream frosting and rainbow nonpareils.
     li
-       
+      .foto
+        img(src='img/redvelvet.jpg' alt='Cherries' style='width:100%')
         h3 RED VELVET
         p
           | A classic Southern buttermilk cake with a hint of cocoa. Topped off with a rich pile of cream cheese frosting and a dusting of red sparkle.&mldr;
     li
-     
+      .foto
+        img(src='img/salted.jpg' alt='Pasta and Wine' style='width:100%')
         h3 SALTED CARAMEL
         p
           | Chocolate Cake Royale topped with house-made caramel buttercream, Fleur de Sel and dark chocolate curls.
     li
-     
+      .foto
+        img(src='img/triple.jpg' alt='Popsicle' style='width:100%')
         h3 TRIPLE THREAT
         p
           | A chocolate cake frosted with chocolate buttercream and then we add dark chocolate curls. For the serious chocoholic!
     li
-     
+      .foto
+        img(src='img/dance.jpg' alt='Salmon' style='width:100%')
         h3 DANCE PARTY
         p
           | Pink vanilla buttercream swirled onto vanilla buttercake with a sprinkling of colorful confetti makes for one very sweet party indeed.
     li
-       
+      .foto
+        img(src='img/thekate.jpg' alt='Sandwich' style='width:100%')
         h3 THE KATE
         p
           | Pink vanilla buttercream atop chocolate cake, sprinkled with fun pink and white sprinkles makes what may be the perfect treat.
     li
-       
+      .foto
+        img(src='img/classic.jpg' alt='Croissant' style='width:100%')
         h3 CLASSIC
         p
           | Vanilla cake with the perfect amount of chocolate buttercream swirled on top and rainbow sprinkles. A true classic.
 #gallery.slideshow
   h1.restaurant
-    
+    img(src='img/gallery.jpg' style='width:auto')
+  img.mySlides(src='img/restoo2.jpg' style='height:70%')
+  img.mySlides(src='img/restoo1.jpg' style='height:70%')
+  img.mySlides(src='img/restoo3.jpg' style='height:70%')
+  img.mySlides(src='img/restoo4.jpg' style='height:70%')
   button.button.display-left(onclick='plusDivs(-1)') &#x276E;
   button.button.display-right(onclick='plusDivs(+1)') &#x276F;
 table
@@ -346,6 +362,7 @@ script.
   map: map
   });
   }
+script(async='' defer='' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCsHjNB67tC9o6CqXNt10iy0fvWPuaBwJg&callback&callback=getLocation')
 script.
   function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
